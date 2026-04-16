@@ -1,9 +1,9 @@
 import QtQuick
 import Quickshell
-import qs.core.nodecenter
+import qs.core.nodebar
 import qs.core.notch
 
 ShellRoot {
-    NodeCenter {}
+    NodeBar {}
     NotchRoot {}
 }
