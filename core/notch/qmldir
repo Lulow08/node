@@ -1,5 +1,5 @@
 module qs.core.notch
 NotchBackground 1.0 NotchBackground.qml
 NotchBubble 1.0 NotchBubble.qml
-NotchContentHost 1.0 NotchContentHost.qml
+NotchStage 1.0 NotchStage.qml
 NotchRoot 1.0 NotchRoot.qml

@@ -25,13 +25,12 @@ PanelWindow {
             Layout.fillWidth: true
             Layout.fillHeight: true
 
-            LeftNodes {
+            LeadNodes {
                 anchors.left: parent.left
             }
         }
 
         Item {
-            id: notch
             Layout.preferredWidth: Config.notch.width
             Layout.fillHeight: true
             Layout.alignment: Qt.AlignCenter
@@ -41,7 +40,7 @@ PanelWindow {
             Layout.fillWidth: true
             Layout.fillHeight: true
 
-            RightNodes {
+            TrailNodes {
                 anchors.right: parent.right
             }
         }

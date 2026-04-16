@@ -109,7 +109,6 @@ Item {
             duration: 400
             easing.type: Easing.OutCubic
         }
-
         NumberAnimation {
             target: activeTranslate
             property: "y"

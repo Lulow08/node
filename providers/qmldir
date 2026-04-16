@@ -1,2 +1,0 @@
-module qs.providers
-singleton MediaProvider 1.0 MediaProvider.qml

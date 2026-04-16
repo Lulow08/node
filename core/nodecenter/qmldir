@@ -1,4 +1,0 @@
-module qs.core.nodecenter
-LeftNodes 1.0 LeftNodes.qml
-NodeCenter 1.0 NodeCenter.qml
-RightNodes 1.0 RightNodes.qml

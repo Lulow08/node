@@ -24,7 +24,7 @@ Item {
             // Rebuilds only if the string length changes (e.g. "9:59" -> "10:00")
             model: root.text.length
 
-            DigitalChar {
+            CascadeChar {
                 character: root.text.charAt(index) || ""
                 fontConfiguration: root.textFont
                 color: root.textColor

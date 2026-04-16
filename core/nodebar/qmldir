@@ -1,0 +1,4 @@
+module qs.core.nodecenter
+LeadNodes 1.0 LeadNodes.qml
+NodeBar 1.0 NodeBar.qml
+TrailNodes 1.0 TrailNodes.qml

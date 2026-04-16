@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Layouts
+import qs.config
 import qs.components
 import qs.services
 
@@ -34,7 +35,6 @@ RowLayout {
         color: "#888888"
     }
 
-    // Spacer
     Item {
         Layout.fillWidth: true
     }
@@ -46,7 +46,7 @@ RowLayout {
 
         Text {
             text: "Wed"
-            font.pixelSize: 13
+            font.pixelSize: Config.theme.fontSizePrimary
             font.family: "BDO Grotesk"
             font.weight: Font.DemiBold
             color: "white"
@@ -54,14 +54,13 @@ RowLayout {
 
         Text {
             text: "15"
-            font.pixelSize: 13
+            font.pixelSize: Config.theme.fontSizePrimary
             font.family: "BDO Grotesk"
             font.weight: Font.DemiBold
             color: "#FF383C"
         }
     }
 
-    // Right
     Text {
         text: "􀑇"
         font.pixelSize: 14
