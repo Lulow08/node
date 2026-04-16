@@ -1,0 +1,8 @@
+module qs.config
+singleton Animations 1.0 Animations.qml
+singleton Config 1.0 Config.qml
+singleton Metrics 1.0 Metrics.qml
+singleton Modules 1.0 Modules.qml
+singleton Nodes 1.0 Nodes.qml
+singleton Notch 1.0 Notch.qml
+singleton Theme 1.0 Theme.qml

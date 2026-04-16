@@ -1,0 +1,71 @@
+import QtQuick
+import QtQuick.Layouts
+import qs.components
+import qs.services
+
+RowLayout {
+    spacing: 8
+
+    anchors {
+        fill: parent
+        leftMargin: 16
+        rightMargin: 16
+    }
+
+    // Left (Mocks)
+    Text {
+        text: "􀙇"
+        font.pixelSize: 14
+        font.family: "SF Pro"
+        color: "white"
+    }
+
+    Text {
+        text: "􀝗"
+        font.pixelSize: 14
+        font.family: "SF Pro"
+        color: "white"
+    }
+
+    Text {
+        text: "􂽂"
+        font.pixelSize: 14
+        font.family: "SF Pro"
+        color: "#888888"
+    }
+
+    // Spacer
+    Item {
+        Layout.fillWidth: true
+    }
+
+    // Right (Mocks)
+    Row {
+        spacing: 0
+        rightPadding: 6
+
+        Text {
+            text: "Wed"
+            font.pixelSize: 13
+            font.family: "BDO Grotesk"
+            font.weight: Font.DemiBold
+            color: "white"
+        }
+
+        Text {
+            text: "15"
+            font.pixelSize: 13
+            font.family: "BDO Grotesk"
+            font.weight: Font.DemiBold
+            color: "#FF383C"
+        }
+    }
+
+    // Right
+    Text {
+        text: "􀑇"
+        font.pixelSize: 14
+        font.family: "SF Pro"
+        color: "white"
+    }
+}
