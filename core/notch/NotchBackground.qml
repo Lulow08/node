@@ -1,41 +1,22 @@
 import QtQuick
 import qs.config
 
+// Visual shell of the notch: background, border, shape.
+// Contains NotchStage but does not control its internals.
 Rectangle {
     id: root
 
     radius: Config.metrics.radiusMedium
-
     color: Config.theme.backgroundPrimary
     border.color: Config.theme.borderSubtle
     border.width: Config.metrics.borderThin
 
-    Item {
-        id: contentArea
+    NotchStage {
         anchors {
-            top: parent.top
-            left: parent.left
-            right: parent.right
+            fill: parent
             margins: Config.notch.padding
-        }
-        anchors.bottom: bottom.top
-    }
-
-    Item {
-        id: bottomSlot
-        anchors {
-            left: parent.left
-            right: parent.right
-            bottom: parent.bottom
-            leftMargin: Config.notch.padding
-            rightMargin: Config.notch.padding
+            // Give the bottom slot its own inset so it sits flush with the border
             bottomMargin: Config.metrics.borderThin
         }
-        height: implicitHeight
-    }
-
-    NotchContentHost {
-        anchors.fill: contentArea
-        property Item bottomSlot: bottomSlot
     }
 }
